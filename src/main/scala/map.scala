@@ -18,7 +18,7 @@ object map {
     l.foldRight( Nil:List[B])((h,t) =>f(h)::t)
 
   def map_4[A,B](l: List[A])(f: A => B): List[B] =
-    l.foldLeft( Nil:List[B])((h,t) =>f(t)::h).reverse
+     l.foldLeft( Nil:List[B])((acc,element) =>f(element)::acc).reverse
 
   def map_5(l: List[Int], f: Int => Int): List[Int] = {
     val buf = new collection.mutable.ListBuffer[Int]
