@@ -13,3 +13,7 @@ libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.5" % "test"
 scalacOptions += "-Ypartial-unification"
 
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.5.0"
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor" % "2.5.19",
+  "com.typesafe.akka" %% "akka-testkit" % "2.5.19" % Test
+)
