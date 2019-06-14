@@ -1,5 +1,5 @@
 object TSP2 extends App{
-  //greedy
+  //traveling salesman problem,greedy
   val testMap = Map (0 ->(1,1), 1->(1,2),2->(1,3),3->(2,3),4->(2,2),5->(2,1))
   val test2 = Map(0 -> (83,37), 1 -> (86,70), 2 -> (21,51), 3 -> (35,60), 4 -> (87,99))
 
