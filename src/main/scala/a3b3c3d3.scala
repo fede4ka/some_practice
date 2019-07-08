@@ -1,5 +1,5 @@
 object a3b3c3d3 extends App{
-  //Write all solutions for a^3+b^3 = c^3 + d^3, where a, b, c, d lie between [0, 10^5].
+  //Write all solutions for a^3+b^3 = c^3 + d^3, where a, b, c, d lie between [0, 10^3].
   //найти все положительные целочисленные решения уравнения а3 + Ь3 = с3 + d3, меньшие 1000
   import scala.math.pow
   
