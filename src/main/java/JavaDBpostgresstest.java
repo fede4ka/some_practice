@@ -11,7 +11,6 @@ public class JavaDBpostgresstest  {
              String password = "";
             //Class.forName("org.postgresql.Driver").getDeclaredConstructor().newInstance();
 
-            // команда создания таблицы
             String sqlCommand1 = "DROP TABLE IF EXISTS processors";
             String sqlCommand2 = "CREATE TABLE processors (id   SERIAL,name VARCHAR NOT NULL UNIQUE,price  SMALLINT)";
             String sqlCommand3 = "INSERT INTO processors  (name, price) VALUES ('Core i7-9700K', 374), " +
